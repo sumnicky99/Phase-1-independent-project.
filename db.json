@@ -1,0 +1,18 @@
+{
+    "networks": 
+        {
+          "company": [
+            "Bike U Sp. z o.o."
+          ], 
+          "href": "/v2/networks/bbbike", 
+          "id": "bbbike", 
+          "location": {
+            "city": "Bielsko-Bia\u0142a", 
+            "country": "PL", 
+            "latitude": 49.8225, 
+            "longitude": 19.044444
+          }, 
+          "name": "BBBike"
+        }
+        
+}

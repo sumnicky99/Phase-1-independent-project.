@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase-1-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+     <!-- navbar part -->
+     <nav class="navbar">
+        <div class="container">
+            <div class="navbar-wrapper">
+                <!-- logo part -->
+                <div class="navbar-logo">
+                    <p class="navbar-text">Sumnicky's Bike Center</p>
+                </div>
+                  <!-- list items -->
+                  <ul class="navbar-list" id="sideMenu">
+                    <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Service</a></li>
+                    <li class="navbar-item"><a href="#" class="nav-link">Find</a></li> 
+                    <img src="images/close.svg" alt="" class="close-icon">  
+                </ul>
+                <img src="images/" alt="" class="menu-icon">
+            </div>
+        </div>
+        
+    </nav>
+
+    <main class="main">  
+        <div class="container">
+            <div class="flex heading-image">
+                <!-- heading part -->
+                <div class="main-description">
+                    <h1>Find Your favorite MotorCycle</h1>
+                    <p>All about Motocyle search for your favorite one.
+                    </p>
+                </div>
+    
+                <!-- image part -->
+                <div class="main-image">
+                    <img src="images/2ndbike.jpeg" alt="">
+                    <img src="images/3rdbike.jpeg" alt="">
+                </div>
+            </div>
+
+            <!-- search bar -->
+            <div class="search-bar">
+                <form id="search-form">
+                    <div class="input-group">
+                        <input type="text" id="search-box" placeholder="Search here">
+                        <!--the search btn-->
+                        
+                        <a class="search-result"  href="http://api.citybik.es/v2/networks?fields=id,name,href"> 
+                        <button  class="searchbtn" id="search">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- search results  -->
+                      <div id="search-result"></div>
+                <!--<button id="show-more-btn" onclick="fetch()">Show more</button> !-->
+                     <div id="Diff-places">
+                      <p>
+                    <h2 id="list-header">Although, there is no standard classification of motorcycles, here are the types of motorcycles i found most popular:</h2>
+                        <ol id="list">
+                          <li>Standard/Naked/Roadster bikes</li>
+                          <li>Cruiser bikes</li>
+                          <li>Touring bikes</li>
+                          <li>Sport bikes</li>
+                          <li>Off-Road bikes</li>
+                          <li>Dual-PurposeOn-Off Road/Adventure Bikes</li>
+                          <li>ScooterMoped Bikes</li>
+                        </ol>
+                    <h2>Below are Few types of Most Popular motorcycles and How they are Rode:</h2>
+                    <h3>Cruiser Bikes</h3>
+                         Cruiser bikes have a riding position that places the feet forward and hands are up relatively high. This means the riders spine leans back slightly. They are comfortable for short distances but riding for long periods at highway speeds can btaxing on the body.
+                         They are located along American coastline.
+              
+                         <img src="https://imgd.aeplcdn.com/272x153/n/cw/ec/129571/v302c-right-front-three-quarter.gif?isig=0&q=80" alt="Cruiser">
+
+                    <h3>Dual-Purpose Bikes</h3>
+                         Dual purpose (adventure or on-off road ) bikes have touring capability on and off-road. They are often higher than street bikers, with a high centre of gravity and tall seat height, allowing good suspension travel for rough road
+                        They are located mostly on 1. KTM 690 Enduro R · 2. Husqvarna FE501S · 3. Honda CRF300L Rally · 4. Honda CRF450L.
+                
+                         <img src="https://www.rideadv.com/hs-fs/hubfs/klr-650-best-dual-sport-motorcycle.jpg?width=1024&height=677&name=klr-650-best-dual-sport-motorcycle.jpg" alt="Dual-Purpose">
+
+                    <h3>Scooters</h3>
+                        Scooters usually have a smaller engine than other motorcycles  and have all-encompassing bodywork and more built in storage. Modern scooters have automatic clutches and CVT, making them easier to learn on and ride.
+                        They are located mostly on in Thailand and Singapore.
+                
+                       <img src="https://media.istockphoto.com/id/1357176929/photo/red-classic-scooter-motor-bike-or-moped-isolated-on-whte.jpg?s=612x612&w=0&k=20&c=hbJmCKEtegfdcpauLoSeRXPmv-OWCnxUr60Ag3M6hJ8=" alt="Scooters">
+
+            </p>
+         </div>
+
+        </div>
+    </main>
+<script src="index.js">
+    </script>
+</body>
+</html>
